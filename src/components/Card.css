@@ -1,0 +1,38 @@
+.card {
+	text-align: center;
+	margin: 1em;
+	padding-bottom: 10em;
+	box-shadow: 0px 0px 5px 1px #999;
+}
+
+.head {
+	background: white;
+	padding: 0.5em 0 0.25em 0;
+}
+
+.logoDiv {
+	font-size: 36px;
+	color: white;
+}
+
+.logo {
+	border-radius: 1.25em;
+	padding: 0.2em;
+}
+
+.title {
+	font-size: 1.75em;
+}
+
+.content {
+	padding: 1em;
+}
+
+.desc {
+	color: white;
+	font-size: 0.75em;
+}
+
+.copy {
+	margin: 1em;
+}

@@ -1,5 +1,5 @@
 
-const URL = 'http://lzy2002.com:5000';
+const URL = 'https://scapi.liziyi0914.com';
 
 var API = {
 	get: (path)=>fetch(URL+path),

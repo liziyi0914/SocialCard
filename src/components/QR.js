@@ -9,10 +9,6 @@ export default class extends react.Component {
 
 	img = null;
 
-	constructor() {
-		super();
-	}
-
 	componentDidUpdate() {
 		var canvas = document.querySelector('#qr > canvas');
 		this.img.src = canvas.toDataURL();

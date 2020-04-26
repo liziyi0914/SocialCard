@@ -9,7 +9,8 @@ export default {
 			antd: true,
 			dva: false,
 			dynamicImport: {
-				loadingComponent: './Loading'
+				loadingComponent: './Loading',
+				webpackChunkName: true
 			},
 			title: 'SocialCard',
 			dll: false,

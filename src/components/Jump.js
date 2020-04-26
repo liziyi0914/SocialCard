@@ -26,7 +26,6 @@ class Jump {
 	}
 
 	static execute(targets,ua) {
-		console.log(ua)
 		var url = Jump.test(targets,ua);
 		if(url!='_NULL_') {
 			if(url.startsWith('$')) {

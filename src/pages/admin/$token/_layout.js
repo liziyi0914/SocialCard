@@ -3,12 +3,10 @@ import {
 	Layout,
 	Menu
 } from 'antd';
-import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/icons';
 import router from 'umi/router';
 import { API } from '../../../utils';
 
 const { Header, Content, Sider, Footer } = Layout;
-const SubMenu = { Menu };
 
 export default class extends react.Component {
 

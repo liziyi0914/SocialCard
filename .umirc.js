@@ -8,10 +8,13 @@ export default {
 		['umi-plugin-react', {
 			antd: true,
 			dva: false,
-			dynamicImport: false,
+			dynamicImport: {
+				loadingComponent: './Loading'
+			},
 			title: 'SocialCard',
 			dll: false,
-
+			fastClick: true,
+			pwa: true,
 			routes: {
 				exclude: [
 					/components\//,

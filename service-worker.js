@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.ca9381c6c71acf5489ed325dc51cc8dc.js"
+  "/precache-manifest.24cbf8ffa474e361955b0136ea97b6f7.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "SocialCard"});
